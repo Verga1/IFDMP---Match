@@ -16,7 +16,7 @@ the player has an easy way around the game.
 
 ### User Stories
 
-- #### As a player, I'd like to see:
+### As a player, I'd like to see:
     - A professional and strong looking game to draw the player into playing.
     - Simple and easy to use controls to ensure that the game is not difficult to control.
     - An information window showing clear information about how the game is played to avoid confusion.

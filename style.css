@@ -80,17 +80,22 @@ body {
     animation: dance 1s linear infinite 500ms;
 }
 
+/* -------------------------------------Overlay */
+
 .overlay-text {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    display: none;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 100;
     color: #00B32C;
     font-family: 'Mountains of Christmas', 'Dancing Script';
+    transition: background-color 500ms, font-size 500ms;
 }
 
 .overlay-text-small {
@@ -99,7 +104,6 @@ body {
 
 .overlay-text.visible {
     display: flex;
-    flex-direction: column;
     animation: overlay-grow 500ms forwards;
 }
 
